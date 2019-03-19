@@ -2,6 +2,9 @@ import React from "react";
 
 export default function Header() {
     return(
-        <h1>HEADER</h1>
+        <div className="mb-3">
+            <h1>weatherFinder</h1>
+            <h4>Search for the weather in your city...</h4>
+        </div>
     )
 }
