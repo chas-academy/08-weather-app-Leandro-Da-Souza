@@ -46,19 +46,20 @@ class ApiCall extends Component {
           this.setState({
             error: true
           });
-        }
-        this.setState({
-          temperature: data.main.temp,
-          city: data.name,
-          country: data.sys.country,
-          humidity: data.main.humidity,
-          description: data.weather[0].description,
-          error: false,
-          geolocation: true,
-          wind: data.wind.speed,
-          sunrise: data.sys.sunrise,
-          sunset: data.sys.sunset
-        });
+        } else {
+            this.setState({
+                temperature: data.main.temp,
+                city: data.name,
+                country: data.sys.country,
+                humidity: data.main.humidity,
+                description: data.weather[0].description,
+                error: false,
+                geolocation: true,
+                wind: data.wind.speed,
+                sunrise: data.sys.sunrise,
+                sunset: data.sys.sunset
+              });
+            } 
       });
   };
 
