@@ -1,9 +1,9 @@
 http://leandrodasouza.chas.academy/08-weather-app-Leandro-Da-Souza/
 
-this site was created based on prototypes made in codesandbox.io, links below:
-https://codesandbox.io/s/6wkn3o5vzr (final version used in this application)
-https://codesandbox.io/s/n5r3yn89ym (a Geolocation prototype)
-https://codesandbox.io/s/5z72wmoyrl (first version of the weather application with bugs)
+this site was created based on prototypes made in codesandbox.io, links below: <br/>
+https://codesandbox.io/s/6wkn3o5vzr (final version used in this application) <br/>
+https://codesandbox.io/s/n5r3yn89ym (a Geolocation prototype)<br/>
+https://codesandbox.io/s/5z72wmoyrl (first version of the weather application with bugs)<br/>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
